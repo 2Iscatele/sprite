@@ -19,9 +19,10 @@ body {
 .container {
     margin: 0 auto;
     padding: 0 20px;
-    width: 1200px;
+    width: 1300px;
     align-items: center;
     text-align: center;
+   
 }
 
 a, 
@@ -46,10 +47,11 @@ h3 {
     color: #000000;
 }
 
-.container__icon {
+
+.main__icon {
     position: absolute;
     width: 1440px;
-    height: 636px;
+    height: 625px;
     left: 0px;
     top: 0px;
     background: #FFF6ED;
@@ -65,13 +67,14 @@ h3 {
     color: #FF7A00;
 }
 .frame {
+    margin: 0;
+    padding: 0;
     display: flex;
     flex-direction: column;
     text-align: left;
     max-width: 300px;
-    padding-right: 10px;
     padding-bottom: 10px;
-    margin-right: 80px;
+    margin-right: 120px;
 }
 
 .frame__icon {
@@ -92,13 +95,14 @@ h3 {
 .news {
     display: flex;
     align-self: center;
+    position: relative;
 }
 
 .news__icon {
     position: absolute;
     width: 550px;
-    height: 550px;
-    left: 780px;
+    height: 250px;
+    left: 600px;
     transform: rotate(0deg);
     z-index: -1;
 }
@@ -124,6 +128,7 @@ h3 {
     margin-right: 90px;
     max-width: 70px;
     max-height: 70px;
+    list-style-type: none;
 }
 
 .social__item:nth-child(4n) {
