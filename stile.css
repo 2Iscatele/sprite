@@ -14,6 +14,7 @@ body {
     min-width: 1440px;
     font-family:'Open Sans';
     font-style: normal; 
+    
 }
 
 .container {
@@ -49,18 +50,25 @@ h3 {
 
 
 .main__icon {
-    position: absolute;
-    width: 1440px;
+    position:absolute;
+    background-size: cover;
+    min-width: 100%;
     height: 625px;
     left: 0px;
-    top: 0px;
+    top: -120px;
     background: #FFF6ED;
     z-index: -1;
+}
+
+.coffee {
+    text-align: center;
 }
 
 .hero {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
 }
 
 .orange{
